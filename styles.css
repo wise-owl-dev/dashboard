@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #e4f2f2;
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden; /* Oculta scroll horizontal */
+}
+
+/* Círculo amarillo superior izquierdo */
+.circulo-amarillo {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: #d4a239;
+  border-radius: 50%;
+  top: -200px;
+  left: -150px;
+  z-index: -2; /* Detrás de todo */
+}
+
+.ola {
+  position: absolute;
+  width: 448vh;
+  height: 100vh;
+  z-index: -1;
+}
+.contenedor-main {
+  position: absolute;
+  background-color: #e2eceb;
+  border-radius: 20px;
+  width: 60%;
+  height: 80vh;
+  left: 20%;
+  top: 10%;
+}
+
+.contenedor-dashboard {
+  display: flex;
+  height: 100vh;
+  width: 20%;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: 20px;
+  padding-left: 20px;
+}
